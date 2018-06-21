@@ -22,16 +22,17 @@ howard=Dog.new("Howard")
 howard.owner="David"
 
 
-# def count_sentences
-#   nsent=[]
-#   self.split(".").each do |s|
-#     s.split("!").each do |f|
-#       f.split("?").each do |l|
-#         nsent<<l
-#       end
-#     end
-#   end
-# end
+def count_sentences
+  nsent=[]
+  self.split(".").each do |s|
+    s.split("!").each do |f|
+      f.split("?").each do |l|
+        nsent<<l
+      end
+    end
+  end
+  nsent
+end
 
 def count_s
   puts self
