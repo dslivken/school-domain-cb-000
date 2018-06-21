@@ -31,7 +31,7 @@ class String
         end
       end
     end
-    nsent
+    nsent.count
   end
 
   def count_s
