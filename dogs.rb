@@ -13,7 +13,7 @@ class Dog
 
 end
 
-def end_with?(char)
+def ends_with?(char)
   self[self.length-1]==char
 end
 
