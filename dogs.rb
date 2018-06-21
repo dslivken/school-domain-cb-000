@@ -34,7 +34,7 @@ howard.owner="David"
 # end
 
 def count_s
-  self.split(".")
+  puts self
 end
 
 sentence = "This, well, is a sentence. This is too!! And so is this, I think? Woo..."
