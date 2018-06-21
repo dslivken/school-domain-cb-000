@@ -31,7 +31,6 @@ def count_sentences
       end
     end
   end
-  nsent
 end
 
 
