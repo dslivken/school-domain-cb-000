@@ -34,10 +34,7 @@ howard.owner="David"
 # end
 
 def count_s
-  self.split(".").each do |s|
-    nsent<< l
-  end
-  return nsent
+  self.split(".")
 end
 
 sentence = "This, well, is a sentence. This is too!! And so is this, I think? Woo..."
