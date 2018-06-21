@@ -21,23 +21,23 @@ end
 howard=Dog.new("Howard")
 howard.owner="David"
 
-
-def count_sentences
-  nsent=[]
-  self.split(".").each do |s|
-    s.split("!").each do |f|
-      f.split("?").each do |l|
-        nsent<<l
+class String
+  def count_sentences
+    nsent=[]
+    self.split(".").each do |s|
+      s.split("!").each do |f|
+        f.split("?").each do |l|
+          nsent<<l
+        end
       end
     end
+    nsent
   end
-  nsent
-end
 
-def count_s
-  puts self
+  def count_s
+    puts self
+  end
 end
-
 sentence = "This, well, is a sentence. This is too!! And so is this, I think? Woo..."
 
 
